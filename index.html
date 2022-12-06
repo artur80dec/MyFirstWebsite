@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popo.pl - moja prywatna strona Internetowa</title>
+    <meta name="description" content="Moja prywatna strona Internetowa">
+    <meta name="keywords"
+        content="portfolio, gry, gry komputerowe, muzyka, filmy, CV, rozwój osobisty, komputery, PC, konsole, praca, oferta">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body onload="counting();">
+    <header>
+        <section class="part1">
+            <img src="./images/Artur-nowe-po-ps.png" alt="Mój baniak" width="155px" height="170px" id="pop">
+        </section>
+        <section class="part2">
+            Artur Podkowiak <br>
+            Przyszły programista Webowy
+        </section>
+        <section id="part3">
+            
+        </section>
+    </header>
+    <nav>
+        <div class="panel"><a href="">Strona główna</a></div>
+        <div class="panel"><a href="">Umiejętności</a></div>
+        <div class="panel"><a href="">Kariera</a></div>
+        <div class="panel"><a href="">Zainteresowania</a></div>
+    </nav>
+    <main>
+        <div class="head">
+            <div class="left">
+                <p>Witam!</p>
+                    <p id="popo">
+                        Po wieloletniej przygodzie w obsłudze klienta postanowiłem rozszerzyć swoje horyzonty. Rozpocząłem samodzielne kształcenie w dziedzinie grafiki komputerowej i projektowania aplikacji internetowych. Teraz tą naukę kontynuuje na kursie - gdzie będę podchodził do egzaminu kwalifikacyjnego E14. Projektowanie stron Internetowych stało się moją drugą pasją (zaraz po grach komputerowych), którą zajmuje się w każdej wolnej chwili. Szukam firmy w której będę mógł dalej pogłębiać swoją wiedze w tej dziedzinie. Jeżeli chodzi o wartości jakimi kieruję się przy projektowaniu stron Internetowych to jest to prostota i funkcjonalność. Najważniejsze dla mnie jest, aby osoba odwiedzającą moją witryny mogła bez problemu znaleźć informację po którą tu przyszła.
+                    </p>
+            </div>
+            <div class="right">
+                <div id="CV">
+                    <span>Pobierz moje cv w pdf</span><br>
+                    <a href="./Files/CV.pdf" download="CV.pdf"><input type="button" value="Pobierz"></a>
+                </div>
+                <div class="picture">
+                    <img src="./images/klawiatura1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="technology">
+        <section class="leftd">
+            Technologie jakich używam: 
+        </section>
+        <section class="rightd">
+            <div id="tile1">
+                <figure>
+                    <img src="./images/html5bw.png" alt="HTML 5" onmouseout="bwpng1()" onmouseover="color1()" id="tileone">
+                    <br>
+                    <figcaption>HTML</figcaption>
+                </figure>  
+            </div>
+            <div id="tile2">
+                <figure>
+                    <img src="./images/css3bw.png" alt="CSS 3" onmouseout="bwpng2()" onmouseover="color2()" id="tiletwo">
+                    <br>
+                    <figcaption>CSS</figcaption>
+                </figure>
+            </div>
+            <div id="tile3">
+                <figure>
+                    <img src="./images/JSbw.png" alt="JavaScript" onmouseout="bwpng3()" onmouseover="color3()" id="tilethree">
+                    <br>
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section id="footleft">
+            <p>Kontakt</p>
+            <p id="contact">Telefon: 505 - 873 - 991<br>
+                adres mailowy: <a href="mailto:artur.podkowiak@gmail.com">artur.podkowiak@gmail.com</a><br>
+                skype: artur.podkowiak
+            </p>
+        </section>
+        <section id="footright">
+            Wszelkie prawa zastrzeżone &copy; Artur Podkowiak
+        </section>
+    </footer>
+</body>
+
+</html>
